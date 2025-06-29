@@ -1,0 +1,212 @@
+@keyframes topToBottom {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes moveFromRight {
+  from {
+    transform: translateX(65px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes moveFromLeft {
+  from {
+    transform: translateX(-65px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes bottomToTop {
+  from {
+    transform: translateY(45px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes moveFromDiagnal {
+  from {
+    transform: translate(25px, -35px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 985px) {
+  /* navigation style */
+  .secondlink {
+    position: relative;
+    margin-right: 7px;
+  }
+  .secondlink .barIcon {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .secondlink .barIcon .bar {
+    background-color: white;
+    border: 1px solid lightgrey;
+    font-size: 1.3rem;
+    color: #333;
+    transform: scaleY(1.1);
+    padding: 5px;
+    width: 40px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: relative;
+  }
+  .secondlink .barIcon .bar i {
+    position: absolute;
+  }
+  .secondlink .sd-link {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    transform: rotatex(-90deg) translatex(-15px);
+    /* display: none; */
+  }
+  .secondlink .sd-link.showMenu {
+    animation: MenuStyle 0.4s ease-out forwards;
+  }
+  @keyframes MenuStyle {
+    from {
+      transform: rotatex(-90deg) translatex(-15px);
+    }
+    to {
+      transform: rotatex(0deg) translatex(0px);
+    }
+  }
+  .secondlink .sd-link .links {
+    background-color: rgba(255, 255, 255, 0.767);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+  }
+  section#home {
+    height: auto !important;
+  }
+  .container-fluid {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 10px 15px;
+    margin-top: 27px;
+  }
+  .container-fluid .user-profile {
+    flex: 1;
+    position: relative;
+  }
+  .cDesign {
+    display: none;
+  }
+  .user-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .user-pic .picture {
+    display: none;
+  }
+  .user-pic .sidePicture {
+    display: block;
+    opacity: 0;
+  }
+  .container-fluid.O-O .user-pic .sidePicture {
+    animation: moveFromDiagnal 0.5s ease-in forwards;
+    animation-delay: calc(var(--i) * 0.2s);
+  }
+  .user-pic .sidePicture img {
+    object-fit: cover;
+    object-position: 80% 50%;
+    border-radius: 30px;
+    filter: drop-shadow(0px 0px 8px rgba(45, 45, 45, 0.4));
+  }
+  .user-profile {
+    padding: 5px;
+  }
+  .user-profile .profile {
+    flex: 1;
+  }
+  .user-profile .profile .greetings {
+    font-size: 1.7em;
+  }
+  .user-profile .profile .name {
+    font-size: 2.2em;
+  }
+  .user-profile .profile .professional {
+    font-size: 1.5em;
+    font-weight: 350;
+    margin-bottom: 10px;
+    padding-top: 5px;
+  }
+  .user-profile .profile .lil-summary {
+    text-align: justify;
+    word-break: break-all;
+  }
+  .user-profile .profile .lil-summary i {
+    font-weight: 455;
+  }
+  .secondlink .sd-link .links a {
+    margin-left: 0;
+    position: relative;
+  }
+  .secondlink .sd-link .links a:not(:last-child):after {
+    content: "";
+    position: absolute;
+    width: 1%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.171);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 0%;
+  }
+  .user-exp {
+    margin-top: 17px;
+  }
+  .side-content {
+    flex: 0;
+  }
+  .user-exp .content-fluid .card-level
+  {
+    margin: 7px 0px;
+  }
+  .main-content .heading .topic {
+    font-size: 1.4rem;
+  }
+  .main-content .university .unv-name span {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 1375px) {
+  .cntContent {
+    width: 100%;
+  }
+}
