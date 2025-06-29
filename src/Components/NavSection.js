@@ -31,7 +31,7 @@ function Navigation() {
         <div className="navigation">
           <div className="headlink">
             <div className="hm-link">
-              <a href="/index.html">
+              <a href="/portfolio">
                 <span style={{ "--i": 0 }}>P</span>
                 <span>O</span>
                 <span style={{ "--i": 1 }}>RTF</span>
