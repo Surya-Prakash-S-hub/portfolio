@@ -202,6 +202,10 @@
     font-size: 1.4rem;
     text-transform: capitalize;
   }
+  .main-content .heading .result
+  {
+    font-size: 1.4rem;
+  }
   .main-content .heading .result span {
     font-size: 0.75rem;
   }
