@@ -216,7 +216,7 @@ section#home.fixed-screen .container-fluid {
   font-size: 4vw;
   text-transform: uppercase;
   font-weight: 750;
-  font-family: "Montserrat";
+  font-family: "Poppins" sans-serif;
   margin-bottom: -18px;
   opacity: 0;
 }

@@ -159,20 +159,20 @@
     font-size: 1.7em;
   }
   .user-profile .profile .name {
-    font-size: 2.2em;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
   .user-profile .profile .professional {
-    font-size: 1.5em;
+    font-size: 1.2rem;
     font-weight: 350;
     margin-bottom: 10px;
     padding-top: 5px;
   }
   .user-profile .profile .lil-summary {
     text-align: justify;
-    word-break: break-all;
-  }
-  .user-profile .profile .lil-summary i {
-    font-weight: 455;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #444;
   }
   .secondlink .sd-link .links a {
     margin-left: 0;
@@ -200,13 +200,22 @@
   }
   .main-content .heading .topic {
     font-size: 1.4rem;
+    text-transform: capitalize;
+  }
+  .main-content .heading .result span {
+    font-size: 0.75rem;
   }
   .main-content .university .unv-name span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 1375px) {
   .cntContent {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sidePicture img {
+    width: 200px;
   }
 }
