@@ -116,7 +116,7 @@
   .container-fluid {
     flex-direction: column-reverse;
     height: auto;
-    padding: 10px 15px;
+    padding:20px;
     margin-top: 27px;
   }
   .container-fluid .user-profile {
@@ -198,16 +198,19 @@
   {
     margin: 7px 0px;
   }
+  .main-content
+  {
+    height: 150px;
+    padding: 1px;
+  }
   .main-content .heading .topic {
     font-size: 1.4rem;
+    font-weight: 400;
     text-transform: capitalize;
   }
   .main-content .heading .result
   {
-    font-size: 1.4rem;
-  }
-  .main-content .heading .result span {
-    font-size: 0.75rem;
+    font-size: 1.05rem;
   }
   .main-content .university .unv-name span {
     font-size: 1.2rem;
