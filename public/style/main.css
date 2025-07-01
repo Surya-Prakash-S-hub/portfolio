@@ -481,7 +481,6 @@ section#about {
 }
 .main-content .heading .result span {
   text-transform: uppercase;
-  font-size: 0.6em;
   letter-spacing: 0.2px;
   color: #777;
 }
@@ -674,19 +673,6 @@ h2 {
   gap: 1.5rem;
   overflow: hidden;
   margin: 0 auto;
-}
-.contact-form::before {
-  /* subtle glowing border */
-  content: "";
-  position: absolute;
-  inset: -2px;
-  border-radius: inherit;
-  padding: 2px; /* thickness */
-  background: linear-gradient(135deg, var(--accent2) 0%, var(--accent2) 100%);
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
 }
 .input-group {
   position: relative;

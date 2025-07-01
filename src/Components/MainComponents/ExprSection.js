@@ -60,7 +60,7 @@ function Experience() {
             <div>npm</div>
           </div>
           <div className="skill">
-            <i class="fa-brands fa-bootstrap"></i>
+            <i className="fa-brands fa-bootstrap"></i>
             <div>Bootstrap</div>
           </div>
         </div>
