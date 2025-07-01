@@ -204,6 +204,7 @@ section#home.fixed-screen .container-fluid {
   text-align: center;
   background: linear-gradient(90deg, #7f5af0, #ff6ac1);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 0.05em;
   opacity: 0;
@@ -518,6 +519,7 @@ h2 {
   text-align: center;
   background: linear-gradient(90deg, #7f5af0, #ff6ac1);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 0.05em;
 }
