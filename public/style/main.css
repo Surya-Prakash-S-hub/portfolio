@@ -278,7 +278,7 @@ section#home.fixed-screen .container-fluid {
   background-color: lightgrey;
   box-shadow: 0px 0px 1px transparent;
   transition-behavior: normal;
-  border-radius: 5px;
+  border-radius: 15% 15% 0% 15% / 15% 15% 0% 15% ;
   font-size: 17px;
   font-weight: 300;
 }
@@ -288,20 +288,6 @@ section#home.fixed-screen .container-fluid {
   box-shadow: -5px 5px 5px black;
   background-color: white;
 }
-/* .user-profile .profile .btns .btn::before
-{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background:black;
-    z-index: -1;
-}
-.user-profile .profile .btns .btn::before:hover
-{
-    z-index: -1;
-    transform: translate(-5px,5px);
-} */
 .user-profile .profile .btns .btn a {
   display: flex;
   align-items: center;

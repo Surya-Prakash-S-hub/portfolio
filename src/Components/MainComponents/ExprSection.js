@@ -41,6 +41,10 @@ function Experience() {
           </div>
           <div className="skill">
             <i className="fa-solid fa-database"></i>
+            <div>MySQL</div>
+          </div>
+          <div className="skill">
+            <i className="fa-solid fa-database"></i>
             <div>PostgreSQL</div>
           </div>
           <div className="skill">
@@ -54,6 +58,10 @@ function Experience() {
           <div className="skill">
             <i className="fa-brands fa-npm"></i>
             <div>npm</div>
+          </div>
+          <div className="skill">
+            <i class="fa-brands fa-bootstrap"></i>
+            <div>Bootstrap</div>
           </div>
         </div>
         {/* Projects */}
