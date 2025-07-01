@@ -159,7 +159,7 @@
     font-size: 1.7em;
   }
   .user-profile .profile .name {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
   }
   .user-profile .profile .professional {
@@ -170,8 +170,8 @@
   }
   .user-profile .profile .lil-summary {
     text-align: justify;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 0.9rem;
+    font-weight: 370;
     color: #444;
   }
   .secondlink .sd-link .links a {

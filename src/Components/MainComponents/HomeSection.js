@@ -46,7 +46,7 @@ function Home() {
             <span className="mimic">hey! there</span>
           </div>
           <div className="sidePicture" style={{ "--i": 4 }}>
-            <img style={{width:'290px'}} src={profilePic1} alt="masterNew" />
+            <img style={{width:'230px'}} src={profilePic1} alt="masterNew" />
           </div>
         </div>
       </div>
