@@ -195,6 +195,7 @@ section#home.fixed-screen .container-fluid {
   flex-direction: column;
   justify-content: end;
   flex-shrink: 1;
+  padding: 15px;
 }
 .user-profile .profile .greetings {
   font-size: 3rem;
@@ -239,7 +240,7 @@ section#home.fixed-screen .container-fluid {
 }
 
 .user-profile .profile .lil-summary {
-  line-height: 1.2rem;
+  line-height: 1.1rem;
   color: #333;
   max-width: 36rem;
   font-size: 1.2em;
