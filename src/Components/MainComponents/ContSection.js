@@ -2,13 +2,20 @@ import React from "react";
 
 function Contact() {
   const customStyle = {
-    margin: '25px auto',
+    margin: "25px auto",
   };
+  function newMessage(e) {
+    e.preventDefault();
+    alert(
+      "Thanks for the message! Don't forget to visit my other projects. THANK YOU 💗"
+    );
+    window.location.reload();
+  }
   return (
     <section style={customStyle} id="contact" className="fade-in">
       <div className="cntContent">
         <h2>Contact Me</h2>
-        <form className="contact-form" autoComplete="on">
+        <form onSubmit={newMessage} className="contact-form" autoComplete="on">
           <div className="input-group">
             <i className="fa-solid fa-user"></i>
             <input

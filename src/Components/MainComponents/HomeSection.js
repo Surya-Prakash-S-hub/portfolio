@@ -1,13 +1,14 @@
 import React from "react";
 import profilePic1 from "../assets/pr.png";
 import profilePic2 from "../assets/user_pic.png";
+import resumePDF from "../assets/resume.pdf";
 
 function Home() {
-  // Import the image from the 'picture' folder
   function addClass() {
     const bet = document.querySelector(".container-fluid");
     bet.classList.add("O-O");
   }
+  
   return (
     <section id="home" onLoad={addClass}>
       <div className="container-fluid">
@@ -32,7 +33,13 @@ function Home() {
             </div>
             <div className="btns" style={{ "--i": 3 }}>
               <div className="button-one btn">
-                <a href="#home">Resume</a>
+                <a
+                  href={resumePDF}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
               </div>
               <div className="button-two btn">
                 <a href="#contact">Contact</a>
